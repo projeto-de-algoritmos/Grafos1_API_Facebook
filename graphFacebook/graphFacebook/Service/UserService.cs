@@ -10,5 +10,7 @@ namespace graphFacebook.Service
         {
             _data = data ?? throw new ArgumentNullException(nameof(data));
         }
+
+        
     }
 }

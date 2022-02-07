@@ -10,7 +10,6 @@ D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\bin\Debug\net6.0\Microsoft.O
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.csproj.AssemblyReference.cache
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.GeneratedMSBuildEditorConfig.editorconfig
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.AssemblyInfoInputs.cache
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.AssemblyInfo.cs
@@ -25,3 +24,4 @@ D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebo
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\ref\graphFacebook.dll
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.pdb
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.genruntimeconfig.cache
+D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.csproj.AssemblyReference.cache
