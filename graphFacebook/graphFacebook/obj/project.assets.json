@@ -295,24 +295,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matheus.Monteiro\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\s2-ju\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus.Monteiro\\Documents\\dir\\Grafos1_API_Facebook\\graphFacebook\\graphFacebook\\graphFacebook.csproj",
+      "projectUniqueName": "C:\\PA\\graphFacebook\\graphFacebook\\graphFacebook.csproj",
       "projectName": "graphFacebook",
-      "projectPath": "C:\\Users\\Matheus.Monteiro\\Documents\\dir\\Grafos1_API_Facebook\\graphFacebook\\graphFacebook\\graphFacebook.csproj",
-      "packagesPath": "C:\\Users\\Matheus.Monteiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus.Monteiro\\Documents\\dir\\Grafos1_API_Facebook\\graphFacebook\\graphFacebook\\obj\\",
+      "projectPath": "C:\\PA\\graphFacebook\\graphFacebook\\graphFacebook.csproj",
+      "packagesPath": "C:\\Users\\s2-ju\\.nuget\\packages\\",
+      "outputPath": "C:\\PA\\graphFacebook\\graphFacebook\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Matheus.Monteiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\s2-ju\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
