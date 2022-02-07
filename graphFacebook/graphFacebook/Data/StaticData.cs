@@ -1,5 +1,5 @@
 ﻿using graphFacebook.Entities;
-
+//essa parte aqui por enquanto será ignorada apesar de certa 
 namespace graphFacebook.Data
 {
     public class StaticData
