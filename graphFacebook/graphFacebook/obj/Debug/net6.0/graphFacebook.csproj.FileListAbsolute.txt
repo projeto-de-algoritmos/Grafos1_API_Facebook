@@ -24,7 +24,6 @@ D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebo
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\ref\graphFacebook.dll
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.pdb
 D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.genruntimeconfig.cache
-D:\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.csproj.AssemblyReference.cache
 C:\Users\Matheus.Monteiro\Documents\dir\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Matheus.Monteiro\Documents\dir\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.AssemblyInfoInputs.cache
 C:\Users\Matheus.Monteiro\Documents\dir\Grafos1_API_Facebook\graphFacebook\graphFacebook\obj\Debug\net6.0\graphFacebook.AssemblyInfo.cs

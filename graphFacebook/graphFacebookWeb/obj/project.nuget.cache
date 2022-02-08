@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0/o5AtA6vzMwb2XeAoY58KBw9PLZjY+Vg5+Wow60wE/D3t40vckiYUKEwJ8yu/ClYJHcZXDZrlGpYgRzr0r/wA==",
+  "dgSpecHash": "uEvK/KN9piSaTNGe2/Rp8diIcxwiwb6ffvuCCBoOxTxnl8FDuL0Obi/PjPCtowLjEWjZjSlcc62bT1YK3CnSVg==",
   "success": true,
-  "projectFilePath": "C:\\PA\\graphFacebook\\graphFacebookWeb\\graphFacebookWeb.csproj",
+  "projectFilePath": "D:\\Grafos1_API_Facebook\\graphFacebook\\graphFacebookWeb\\graphFacebookWeb.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\s2-ju\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\matheus\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

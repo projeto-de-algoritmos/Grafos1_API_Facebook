@@ -48,19 +48,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\s2-ju\\.nuget\\packages\\": {}
+    "C:\\Users\\matheus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PA\\graphFacebook\\graphFacebookWeb\\graphFacebookWeb.csproj",
+      "projectUniqueName": "D:\\Grafos1_API_Facebook\\graphFacebook\\graphFacebookWeb\\graphFacebookWeb.csproj",
       "projectName": "graphFacebookWeb",
-      "projectPath": "C:\\PA\\graphFacebook\\graphFacebookWeb\\graphFacebookWeb.csproj",
-      "packagesPath": "C:\\Users\\s2-ju\\.nuget\\packages\\",
-      "outputPath": "C:\\PA\\graphFacebook\\graphFacebookWeb\\obj\\",
+      "projectPath": "D:\\Grafos1_API_Facebook\\graphFacebook\\graphFacebookWeb\\graphFacebookWeb.csproj",
+      "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
+      "outputPath": "D:\\Grafos1_API_Facebook\\graphFacebook\\graphFacebookWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s2-ju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
