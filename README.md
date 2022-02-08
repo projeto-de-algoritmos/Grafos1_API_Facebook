@@ -10,7 +10,7 @@
 | 18/0127969  |  Matheus Yan Monteiro dos Santos Almeida |
 
 ## Sobre 
-
+Projeto de Grafos 1 - Desenvolvemos uma API na qual mostra as conexões (Amigos) de um núcleo específico de pessoas.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
@@ -21,7 +21,7 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+A API mostrará os usuários cadastrados e mostrará quais amigos esse usuário possui.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
