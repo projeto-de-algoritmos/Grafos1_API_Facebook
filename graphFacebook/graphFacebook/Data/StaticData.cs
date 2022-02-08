@@ -15,24 +15,24 @@ namespace graphFacebook.Data
         public StaticData()
         {
 
-            persona1.Nome = "teste";
-            persona1.Idade = "teste";
+            persona1.Nome = "Cassie";
+            persona1.Idade = "16";
             persona1.Conexoes = new List<int> { persona2.Id, persona3.Id, persona4.Id };
 
-            persona2.Nome = "teste";
-            persona2.Idade = "teste";
+            persona2.Nome = "Rue";
+            persona2.Idade = "17";
             persona2.Conexoes = new List<int> { persona1.Id, persona3.Id };
 
-            persona3.Nome = "teste";
-            persona3.Idade = "teste";
+            persona3.Nome = "Jules";
+            persona3.Idade = "18";
             persona3.Conexoes = new List<int> { persona1.Id, persona2.Id, persona5.Id };
 
-            persona4.Nome = "teste";
-            persona4.Idade = "teste";
+            persona4.Nome = "Maddy";
+            persona4.Idade = "17";
             persona4.Conexoes = new List<int> { persona1.Id, persona5.Id };
 
-            persona5.Nome = "teste";
-            persona5.Idade = "teste";
+            persona5.Nome = "Nate";
+            persona5.Idade = "24";
             persona5.Conexoes = new List<int> { persona4.Id, persona3.Id };
 
 
