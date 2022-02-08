@@ -29,6 +29,3 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Uso 
 A API mostrará os usuários cadastrados e mostrará quais amigos esse usuário possui.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
