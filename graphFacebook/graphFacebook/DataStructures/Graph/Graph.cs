@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace Cnsl.DataStructures
 {
-    public class Graph : IGraph
+    public class Graph : IGraph //classe responsavel por criar todo a manipulão do grafo 
     {
-        private IVertex[] _vertices;
+        private IVertex[] _vertices; //ela importa os nós em um array
 
-        public IReadOnlyCollection<IVertex> Vertices => _vertices;
-        public int Count => _vertices.Length;
+        public IReadOnlyCollection<IVertex> Vertices => _vertices; //também importa os vertices 
+        public int Count => _vertices.Length; // tamanho dos vertices
 
         public Graph(int verticesCount)
         {
@@ -21,16 +21,16 @@ namespace Cnsl.DataStructures
                 _vertices[i] = new Vertex(i);
         }
 
-        public void AddEdge(int numV, int numU)
+        public void AddEdge(int numV, int numU) //funçao que adciona o nó
             => AddEdge(numV, numU, 0);
 
         public void AddEdge(int numV, int numU, int weight)
-            => AddEdge(_vertices[numV], _vertices[numU], weight); 
+            => AddEdge(_vertices[numV], _vertices[numU], weight);   //funçao que adciona o nó
 
         public void AddEdge(IVertex v, IVertex u)
-            => AddEdge(v, u, 0);
-        
-        public void AddEdge(IVertex v, IVertex u, int weight)
+            => AddEdge(v, u, 0); //funçao que adciona a aresta
+
+        public void AddEdge(IVertex v, IVertex u, int weight) //funçao que adciona o nó
         {
             if (v is null)
                 throw new ArgumentNullException(nameof(v));
@@ -41,7 +41,7 @@ namespace Cnsl.DataStructures
             u.AddEdge(new Edge(u, v, weight));
         }
 
-        public IVertex this[int index]
+        public IVertex this[int index] 
         {
             get => _vertices[index];
         }
@@ -55,7 +55,7 @@ namespace Cnsl.DataStructures
             _vertices[_vertices.Length - 1] = vertex;
         }
 
-        public void RemoveVertex(IVertex vertex)
+        public void RemoveVertex(IVertex vertex) //funçao que remove os nós 
         {
             if (vertex is null)
                 throw new ArgumentNullException(nameof(vertex));

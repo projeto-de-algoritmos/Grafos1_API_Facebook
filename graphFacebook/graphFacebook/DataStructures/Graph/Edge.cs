@@ -3,6 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace Cnsl.DataStructures
 {
+    // classe responsavel por fazer as arestas dos nós ela vai implemntar dois construtores  e uma gama de função 
     public class Edge : IEdge
     {
         public IVertex V { get; }
@@ -24,24 +25,24 @@ namespace Cnsl.DataStructures
             Weight = weight;
         }
 
-        public int CompareTo(IEdge other)
+        public int CompareTo(IEdge other) //função que vai comparar duas arestas 
         {
             return other == null 
                 ? 1
                 : Weight - other.Weight;
         }
 
-        public override string ToString()
+        public override string ToString() //função de printagem
         {
             return $"Edge({V}-{U})";
         }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object obj) //funão de comparação com objeto 
         {
             return Equals(obj as IEdge);
         }
 
-        public bool Equals(IEdge other)
+        public bool Equals(IEdge other) //funão de comparação com referencia a outro edge 
         {
             if (Object.ReferenceEquals(other, null))
                 return false;

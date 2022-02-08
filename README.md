@@ -16,9 +16,16 @@ Projeto de Grafos 1 - Desenvolvemos uma API na qual mostra as conexões (Amigos)
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C# <br>
+**Framework**: .net core<br>
+- Docker  o programa tem um arquivo docker configurado para ambiente linux.
+ 1) docker build
+- Segunda forma de rodar o projeto no linux é ultizando o C# .net core com os seguintes comandos 
+1) dotnet build
+2) dotnet run 
+- Forma simples de rodar o projeto seria na plataforma windows onde por ter a IDE gratuita Visual Studio code e o serviço IIS instalado no computador o arquivo launchSettings.json é automaticamente executado dentro da IDE, caso queira executar pelo powershell os comandos serão os mesmos.
+1) dotnet build
+2) dotnet run
 
 ## Uso 
 A API mostrará os usuários cadastrados e mostrará quais amigos esse usuário possui.

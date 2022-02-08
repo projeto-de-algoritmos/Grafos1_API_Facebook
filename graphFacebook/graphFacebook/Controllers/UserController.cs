@@ -16,6 +16,6 @@ namespace graphFacebook.Controllers
         {
             _userService = userService ?? throw new ArgumentNullException(nameof(userService));
         }
-
+        //classe controller que ultiliza o swagger para implementar as rotas de comunicação dos metodos que serão criados no service
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Cnsl.DataStructures
 {
+    //classe responsavel pela implementação dos nós
     public class Vertex : IVertex
     {
         private DynamicArray<IEdge> _edges;
@@ -10,7 +11,7 @@ namespace Cnsl.DataStructures
         public IReadOnlyCollection<IEdge> Edges => _edges ?? DynamicArray<IEdge>.Empty;
         public int Num { get; }
 
-        public Vertex(int num)
+        public Vertex(int num) 
         {
             if (num < 0)
                 throw new ArgumentException("Must be at least 0", nameof(num));
@@ -18,7 +19,7 @@ namespace Cnsl.DataStructures
             Num = num;
         }
 
-        public void AddEdge(IEdge edge)
+        public void AddEdge(IEdge edge) //função padrão de adicinamento de nó 
         {
             if (edge is null)
                 throw new ArgumentNullException(nameof(edge));
@@ -28,7 +29,7 @@ namespace Cnsl.DataStructures
             _edges.Add(edge);
         }
 
-        public bool TryGetEdge(IVertex vertex, out IEdge edge)
+        public bool TryGetEdge(IVertex vertex, out IEdge edge) // função que tenta pegar uma aresta para vê se existe a relação com o nó
         {
             edge = vertex != null 
                 ? FindInternal(vertex)
@@ -81,7 +82,7 @@ namespace Cnsl.DataStructures
             return !(left == right);
         }
 
-        private IEdge FindInternal(IVertex vertex)
+        private IEdge FindInternal(IVertex vertex) // acha o nó interno
         {
             if (_edges != null)
             {
